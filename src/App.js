@@ -52,11 +52,11 @@ export default function App() {
           onChange={handleFormatChange}
           className={styles.item2}
         >
-          <MenuItem value="DWG">DWG</MenuItem>
-          <MenuItem value="DXF">DXF</MenuItem>
-          <MenuItem value="STEP">STEP</MenuItem>
-          <MenuItem value="IGES">IGES</MenuItem>
-          <MenuItem value="STL">STL</MenuItem>
+          <MenuItem value="dwg">DWG</MenuItem>
+          <MenuItem value="dxf">DXF</MenuItem>
+          <MenuItem value="step">STEP</MenuItem>
+          <MenuItem value="iges">IGES</MenuItem>
+          <MenuItem value="stl">STL</MenuItem>
         </Select>
         <div className={styles.item3}>
           <Button variant="contained" endIcon={<FileDownloadIcon />} onClick={handleDownload}>
